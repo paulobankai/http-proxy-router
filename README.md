@@ -4,6 +4,30 @@
 
 🔗 **Live Demo:** [phrobots.com.br](https://phrobots.com.br)
 
+--- 
+
+## 📸 Screenshots
+
+> Dashboard ao vivo em [phrobots.com.br](https://phrobots.com.br)
+
+### Painel Administrativo
+![Painel Administrativo](Painel%20adm.png)
+
+### Configuração de Links
+![Configuração de Links](Configuração%20de%20links.png)
+
+### Configurações de Link 2
+![Configurações de Link 2](Configurações%20de%20link%202.png)
+
+### Monitoramento de Acesso aos Links
+![Monitoramento de Acesso aos Links](Monitoramento%20de%20acesso%20aos%20links.png)
+
+### Monitoramento de Bloqueio
+![Monitoramento de Bloqueio](Monitoramento%20de%20bloqueio.png)
+
+### Monitoramento de IP
+![Monitoramento de IP](Monitoramento%20de%20ip.png)
+
 ---
 
 ## 📌 Visão Geral
@@ -48,63 +72,3 @@ Internet → Nginx (SSL) → FastAPI Router → Threat Classifier
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?style=flat-square&logo=fastapi)
 ![Nginx](https://img.shields.io/badge/Nginx-Reverse_Proxy-009639?style=flat-square&logo=nginx)
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-VPS-F80000?style=flat-square&logo=oracle)
-![Three.js](https://img.shields.io/badge/Three.js-3D_Dashboard-black?style=flat-square&logo=threedotjs)
-
-- **Back-end:** Python 3.11, FastAPI, SQLite
-- **Segurança:** JWT, SSL/HTTPS, rate limiting, honeypot routing
-- **Infra:** Oracle Cloud VPS, Ubuntu Server, Nginx, systemd service
-- **Front-end:** HTML/CSS/JS, Three.js (globo 3D), Chart.js (telemetria ao vivo)
-
----
-
-## 📊 Dashboard ao Vivo
-
-Acesse: **[phrobots.com.br](https://phrobots.com.br)**
-
-- 🌐 Globo 3D interativo com conexões de rede
-- 📈 Gráficos de latência e throughput em tempo real
-- 🔍 Audit trail com classificação de requisições
-- 🚨 Alertas de ameaças detectadas
-
----
-
-## 🛠️ Como Executar
-
-```bash
-git clone https://github.com/paulobankai/http-proxy-router.git
-cd http-proxy-router
-pip install -r requirements.txt
-python main.py
-```
-
----
-
-## 📁 Estrutura
-
-```
-http-proxy-router/
-├── main.py
-├── requirements.txt
-├── core/
-│   ├── threat_classifier.py
-│   ├── auth_db.py
-│   ├── http_router.py
-│   ├── jwt_handler.py
-│   ├── link_manager.py
-│   ├── tunnel_manager.py
-│   ├── privacy_engine.py
-│   └── retention_manager.py
-├── server/
-├── deploy/
-└── gui/
-```
-
----
-
-## 👤 Autor
-
-**Paulo Henrique Matos de Souza**
-🔗 [phrobots.com.br](https://phrobots.com.br) · 📧 paulohenriquems1975@gmail.com
-
-> *Desenvolvido com AI-Assisted Development: engenharia de prompts, depuração analítica e refatoração assistida por IA.*
